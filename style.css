@@ -1,0 +1,58 @@
+body {
+  background-color: #4D4D4D;
+  font-family: system-ui;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #EEEEEE;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+#container {
+  background-color: #EEEEEE;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  background-color: #E9EE2F;
+  color: grey;
+  text-align: center;
+  padding: 10px;
+}
+
+#content {
+  padding : 10px;
+}
+
+#nav {
+  width: 180px;
+  float: left;
+}
+
+#nav {
+  list-style: none;
+  padding: 0;
+}
+
+#nav .selected {
+  font-weight: bold;
+}
+
+
+#main {
+  width: 600px;
+  float: right;
+}
+
+#footer {
+  clear: both;
+  text-align: center;
+  padding: 10px;
+  background-color: #E9EE2F;
+}
